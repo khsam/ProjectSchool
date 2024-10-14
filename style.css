@@ -252,9 +252,9 @@ GqRightInner p{
     height:380px ;  
 }
 .fifthBody{
-    height: 1050px;
+    /* height: 1050px; */
     /* overflow: auto; */
-    background-color: #E74040;
+    /* background-color: #E74040; */
 }
 .fifthBodyInner{
     /* height:1100px; */
@@ -321,4 +321,8 @@ GqRightInner p{
     width: 141px;
     /* height: 44px; */
     height: auto;
+}
+.sixthBody{
+    height: 600px;
+    background-color: aqua;
 }
