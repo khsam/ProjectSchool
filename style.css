@@ -129,11 +129,12 @@ margin-top: 54px;
     color: #96BB7C;
 }
 .secondBody{
-    height: 750px;
+    /* height: 750px; */
+    height: auto;
 /* background-color: #96BB7C; */
 }
 .secondBodyInner{
-    height: 725px;
+    /* height: 725px; */
     margin: 0px 150px 24px 150px;
     /* background-color: beige; */
     overflow: auto; /*this is very important otherwise the child div top margin will not work. */
@@ -143,7 +144,8 @@ margin-top: 54px;
 }
 .ourPopularCls{
     height: 134px;
-    margin-top: 112px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .ourPopularCls h2{
     margin: 10px 0px;
@@ -157,7 +159,7 @@ margin-top: 54px;
     margin: 0px;
 }
 .cardsCls{
-    margin: 100px 0px;
+    margin: 50px 0px;
     /* background-color: #96BB7C; */
     height: 278px;
     overflow: auto;   /*this is very important otherwise the child div top margin will not work. */
@@ -198,18 +200,19 @@ margin-top: 54px;
     color: #FFFFFF;
 }
 .thirdBody{
-    height: 680px;
+    /* height: 680px; */
     /* background-color: #96BB7C; */
+    height:auto;
     overflow: auto;
 }
 .thirdBodyInner{
     margin: 0px 180px;
-    height: 680px;
+    height:auto;
     overflow: auto;
     /* background-color: #E74040; */
 }
 .thirdBodyInnerTwo{
-    margin: 150px 0px;
+    margin: 50px 0px;
     height: 380px;
     display:flex;
     /* background-color: aqua; */
@@ -269,7 +272,7 @@ GqRightInner p{
     overflow: auto;
 }
 .fifthBodyInnerTwo{
-    margin: 90px 0px;
+    margin: 0px 0px;
     overflow: auto;
 }
 .ourPopularCls h2{
@@ -421,7 +424,7 @@ font-size: 15px;
 }
 .sevenBodyInner{
     margin: 0px 180px;
-    height: 680px;
+    /* height: 680px; */
     overflow: auto;
     background-color:#EFF8ED;
 }
