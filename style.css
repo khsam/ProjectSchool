@@ -498,7 +498,7 @@ font-size: 15px;
   }
   .footer-col .links li a {
     text-decoration: none;
-    color: #0f0404;
+    color: #737373;
   }
   .footer-col .links li a:hover {
     color: #0f0404;
@@ -519,8 +519,8 @@ font-size: 15px;
     width: 100%;
     outline: none;
     border: 1px solid #7489C6 ;
-    caret-color: #0f0404;
-    color: #0f0404;
+    caret-color: #737373;
+    color: #737373;
     padding-left: 10px;
   }
   .footer-col input::placeholder {
