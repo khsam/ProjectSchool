@@ -5,6 +5,8 @@
 .mainSection{
     width: 100%;
     font-family: "Montserrat", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 .headerSection_1{   
     height: 777px;
@@ -295,7 +297,7 @@ GqRightInner p{
 .trainingCls{
     margin-bottom: 10px;
     color: #96BB7C;
-    font-size: 18px;
+    font-size: 16px;
 }
 .starCls{  
     background-color: #2D4059;
@@ -327,7 +329,87 @@ GqRightInner p{
     /* height: 44px; */
     height: auto;
 }
-.sixthBody{
-    height: 600px;
-    background-color: aqua;
+
+.cardSixCls{
+    margin: 50px 0px;
+    /* background-color: #96BB7C; */
+    /* height: 278px; */
+    overflow: auto;   /*this is very important otherwise the child div top margin will not work. */
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardSix{
+    text-align: center;
+    /* width: 180px; */
+    /* height: 600px; */
+    padding: 10px 30px;
+    box-shadow: 1px 6px 6px 0px lightgray;
+}
+.card-title-six{
+    /* width: 140px;
+    height: 20px; */
+    /* margin: 0px; */
+    font-size: larger;
+    /* padding-bottom: 20px; */
+}
+.card-text-six{
+    width: 147px;
+    margin-left: 20px;
+    /* height:60px; */
+    /* margin: 0px; */
+}
+.amountSix{
+    color: #96BB7C;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+/* .secondBody-six{
+    height: 750px;
+background-color: #96BB7C;
+} */
+.secondBodyInner-six{
+    /* height: 725px; */
+    margin: 0px 150px 24px 150px;
+    /* background-color: beige; */
+    overflow: auto; /*this is very important otherwise the child div top margin will not work. */
+}
+.parMonthCls{
+    margin: 0px;
+    font-size: small;
+    color: #8EC2F2;
+}
+.helpCls{
+    width: 200px;
+    color: white;
+}
+.tryFreeBtnCls{
+    width: 180px;
+    height: 30px;
+    background-color: #96BB7C;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+.tryFreeBtnCls a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+.unlimitedCls{
+    margin-top: 35px;
+    width: 230px;
+    text-align: left;
+}
+.unlimitedCls p{
+margin-bottom: 20px;
+/* color: #252B42; */
+font-size: 15px;
+}
+.thirdCardCls-six{
+    background-color: #2D4059;
+    margin: 0px!important;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 0px 0px lightgray;
+    color: #FFFFFF;
 }
